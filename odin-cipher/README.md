@@ -2,6 +2,7 @@
 A simple Caesar cipher in Ruby, as contained within The Odin Project's full stack curriculum.
 
 ## Directory Structure
+```
 .  
 ├─ lib/  
 │ └─ caesar_cipher.rb  
@@ -10,6 +11,7 @@ A simple Caesar cipher in Ruby, as contained within The Odin Project's full stac
 │ └─ spec_helper.rb  
 ├─ .rspec  
 └─ README.md
+```
 
 ## Program
 
