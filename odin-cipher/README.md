@@ -2,13 +2,13 @@
 A simple Caesar cipher in Ruby, as contained within The Odin Project's full stack curriculum.
 
 ## Directory Structure
-.
-├─ lib/
-│ └─ caesar_cipher.rb
-├─ spec/
-│ ├─ caesar_cipher_spec.rb 
-│ └─ spec_helper.rb
-├─ .rspec
+.  
+├─ lib/  
+│ └─ caesar_cipher.rb  
+├─ spec/  
+│ ├─ caesar_cipher_spec.rb  
+│ └─ spec_helper.rb  
+├─ .rspec  
 └─ README.md
 
 ## Program
