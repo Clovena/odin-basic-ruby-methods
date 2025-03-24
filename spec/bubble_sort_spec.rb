@@ -3,14 +3,14 @@ require_relative '../lib/bubble_sort'
 
 RSpec.describe "Bubble Sorter Validation" do
   describe "Numeric array" do
-    it "Array of positive Integers" do
-      expect(bubble_sort([4, 3, 7, 4, 8, 1]))
-      .to eq([1, 3, 4, 4, 7, 8])
+    it "Array of positive Numbers" do
+      expect(bubble_sort([4.5, 3, 7, 4, 8.2, 1]))
+      .to eq([1, 3, 4, 4.5, 7, 8.2])
     end
 
-    it "Array of positive and negative Integers" do
-      expect(bubble_sort([4, -3, 7, -4, 8, -1, 0]))
-      .to eq([-4, -3, -1, 0, 4, 7, 8])
+    it "Array of positive and negative Numbers" do
+      expect(bubble_sort([4.5, -3, 7, -4, 8, -1.2, 0]))
+      .to eq([-4, -3, -1.2, 0, 4.5, 7, 8])
     end
   end
 
