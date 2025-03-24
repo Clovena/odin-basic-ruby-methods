@@ -1,13 +1,16 @@
-# odin-basic-ruby-methods
+# The Odin Project Basic Ruby Methods
 
-Basic Ruby methods, as assigned within The Odin Project's full stack curriculum. 
+Basic Ruby methods, as assigned from The Odin Project's full stack curriculum. 
 
 ## Directory Structure
 
 ```
 .  
 ├─ lib/  
-│ └─ caesar_cipher.rb  
+│ ├─ bubble_sort.rb  
+│ ├─ caesar_cipher.rb  
+│ ├─ stock_picker.rb  
+│ └─ substring_counter.rb  
 ├─ spec/  
 │ ├─ caesar_cipher_spec.rb  
 │ └─ spec_helper.rb  
@@ -15,7 +18,7 @@ Basic Ruby methods, as assigned within The Odin Project's full stack curriculum.
 └─ README.md
 ```
 
-## Ceasar Cipher
+## 1. Ceasar Cipher
 
 A simple Caesar cipher in Ruby, as contained within The Odin Project's full stack curriculum.
 
@@ -42,3 +45,27 @@ A simple Caesar cipher in Ruby, as contained within The Odin Project's full stac
 - Large shifts in the positive and negative directions are validated. 
 - Case preservation and special character retention are validated.
 - Multiple instances of missing or irregular `shift` arguments are tested.
+
+## 2. Substring Counter
+
+A substring counter method in Ruby, as contained within The Odin Project's full stack curriculum.  
+
+### Program
+
+### Tests
+
+## 3. Stock Picker
+
+A rudimentary stock picker in Ruby, as contained within The Odin Project's full stack curriculum.  
+
+### Program
+
+### Tests
+
+## 4. Bubble Sorter
+
+Description 
+
+### Program
+
+### Tests
