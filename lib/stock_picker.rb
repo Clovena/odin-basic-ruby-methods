@@ -1,5 +1,5 @@
 def stock_picker(arr)
-  return [0, 0] if ((arr.length < 2) || arr.class != Array)
+  return [0, 0] if ((arr.class != Array) || (arr.length < 2) || (arr.any? String))
 
   gains = []
   arr.each_with_index do |buy, buy_index|
