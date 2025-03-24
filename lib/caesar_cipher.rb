@@ -1,7 +1,5 @@
 def encrypt(str, shift = 0)
-  unless shift.class == Integer
-    return str
-  end
+  return str unless shift.class == Integer
   out = ''
   str.split('').each do |char|
     base = char == char.upcase ? 65 : 97
