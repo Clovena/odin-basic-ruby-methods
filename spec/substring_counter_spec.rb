@@ -1,4 +1,4 @@
-require 'spec_helper'
+require '_spec_helper'
 require_relative '../lib/substring_counter'
 
 RSpec.describe "Substring Counter Validation" do

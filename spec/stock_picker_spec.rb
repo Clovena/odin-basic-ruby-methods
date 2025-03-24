@@ -1,4 +1,4 @@
-require 'spec_helper'
+require '_spec_helper'
 require_relative '../lib/stock_picker'
 
 RSpec.describe "Stock Picker Validation" do

@@ -1,4 +1,4 @@
-require 'spec_helper'
+require '_spec_helper'
 require_relative '../lib/bubble_sort'
 
 RSpec.describe "Bubble Sorter Validation" do
