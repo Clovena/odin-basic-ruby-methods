@@ -43,7 +43,7 @@ RSpec.describe "Stock Picker Validation" do
     end
 
     it "Array of Strings and Numerics" do
-      expect(bubble_sort(["boy", 4.5, "yay", 23, "str"]))
+      expect(stock_picker(["boy", 4.5, "yay", 23, "str"]))
       .to eq([0, 0])
     end
   end
