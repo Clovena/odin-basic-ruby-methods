@@ -1,7 +1,7 @@
 require 'spec_helper'
 require_relative '../lib/bubble_sort'
 
-RSpec.describe "Cipher Validation" do
+RSpec.describe "Bubble Sorter Validation" do
   describe "Numeric array" do
     it "Correct output with an array of positive Integers" do
       expect(bubble_sort([4, 3, 7, 4, 8, 1]))
