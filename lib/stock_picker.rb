@@ -1,4 +1,4 @@
-def stock_picker(arr)
+def stock_picker(arr = [])
   return [0, 0] unless ((arr.class == Array) && (arr.length > 1) && (arr.all? Numeric))
 
   gains = []
