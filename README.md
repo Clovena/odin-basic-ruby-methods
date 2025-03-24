@@ -107,7 +107,7 @@ A rudimentary stock picker in Ruby, as contained within The Odin Project's full 
 
 ## 4. Bubble Sorter
 
-Description 
+A method to bubble-sort in Ruby, as contained within The Odin Project's full stack curriculum.  
 
 ### Program
 
