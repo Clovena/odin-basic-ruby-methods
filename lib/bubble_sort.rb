@@ -1,7 +1,9 @@
-def bubble_sort(arr = [])
-  return arr unless arr.class == Array
+# frozen_string_literal: true
 
-  arr.map! { |elem| elem.to_s } if arr.any? String
+def bubble_sort(arr = [])
+  return arr unless arr.instance_of?(Array)
+
+  arr.map!(&:to_s) if arr.any? String
   iterations = arr.length - 1
   iterations.times do |iteration|
     arr.each_index do |index|

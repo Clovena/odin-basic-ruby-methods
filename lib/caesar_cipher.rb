@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 def encrypt(str, shift = 0)
-  return str unless shift.class == Integer
+  return str unless shift.instance_of?(Integer)
 
   out = ''
   str.split('').each do |char|

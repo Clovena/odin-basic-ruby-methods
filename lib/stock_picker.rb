@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 def stock_picker(arr = [])
-  return [0, 0] unless (arr.class == Array) && (arr.length > 1) && (arr.all? Numeric)
+  return [0, 0] unless arr.instance_of?(Array) && (arr.length > 1) && (arr.all? Numeric)
 
   gains = []
   arr.each_with_index do |buy, buy_index|
@@ -14,6 +16,5 @@ def stock_picker(arr = [])
   gains.each { |row| maxes << row.max }
   max_gain = maxes.max
   buy = maxes.index(max_gain)
-  buy_sell = [ buy, gains[buy].index(max_gain) ]
-  buy_sell
+  [buy, gains[buy].index(max_gain)]
 end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require '_spec_helper'
 require_relative '../lib/stock_picker'
 
